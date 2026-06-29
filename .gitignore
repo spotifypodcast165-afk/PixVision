@@ -8,3 +8,8 @@ venv/
 .DS_Store
 *.db
 *.sqlite3
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
