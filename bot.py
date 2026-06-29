@@ -1,7 +1,6 @@
 """
 Pixflipt Bot - Complete Working Version
-Features: Convert, Resize, Watermark, PDF
-Deploy on Render.com
+No OpenCV needed - uses only Pillow
 """
 
 import os
@@ -32,9 +31,6 @@ if not TOKEN:
 
 # Create application
 app = Application.builder().token(TOKEN).build()
-
-# Store user data
-user_data = {}
 
 # ============ COMMAND HANDLERS ============
 
